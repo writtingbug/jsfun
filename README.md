@@ -1,2 +1,4 @@
 # jsfun
-javascript function
+
+* Gethered javascript function I have written
+* A function do one thing.
