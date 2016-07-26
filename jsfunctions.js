@@ -255,6 +255,28 @@ function nowTime(){
 
 console.log(nowTime());
 
+function deepNight(){
+  var today = new Date();
+  var y = today.getFullYear(),
+      m = today.getMonth(),
+      d = today.getDate();
+
+  var new_date = new Date(y,m,d,23,59,59);
+  var long_time = new_date.getTime();
+  return long_time;
+}
+
+function earlyMorning(){
+  var today = new Date();
+  var y = today.getFullYear(),
+      m = today.getMonth(),
+      d = today.getDate();
+  var new_date = new Date(y,m,d,0,0,0);
+  var long_time = new_date.getTime();
+  return long_time;
+}
+
+
 
 
 var markyun = new Object();
